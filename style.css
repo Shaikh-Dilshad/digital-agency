@@ -1,0 +1,485 @@
+* {
+   
+    margin: 0px;
+    padding: 0px;
+  
+    box-sizing: border-box;
+}
+
+@media (max-width :1500px) {
+    .d-flex {
+        position: static;
+        top: 10px;
+        /* left: 7rem; */
+
+    }
+}
+
+.navbar {
+
+    width: 100%;
+    position: fixed;
+    background: #343a40;
+    z-index: 1;
+}
+
+.navbar-collapse ul li a,
+.navbar-brand {
+    color: white;
+}
+
+.navbar-collapse ul li a:hover,
+.navbar-brand:hover {
+    color: green;
+
+}
+
+.d-flex {
+    position: absolute;
+    right: 6rem;
+}
+
+.conno {
+    max-width: 1600px;
+   
+}
+
+#banner {
+    color: white;
+    height: 505px;
+}
+
+.row {
+    padding: 19px 8% 4.5% 8%;
+
+}
+
+.zeshu {
+    width: 34%;
+    padding: 10% 0 0 0;
+
+}
+
+.zeshu p {
+    color: white;
+}
+
+.promo-title {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.fa {
+    font-size: 34px;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+}
+
+.img1 img {
+    width: 81%;
+}
+
+
+
+.container {
+
+    position: relative;
+    bottom: 10%;
+}
+
+.forst h4,
+p {
+    color: black;
+    /* text-align: center; */
+}
+
+.forst h4 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.forst img {
+    width: 25%;
+}
+
+@media(min-width:800px) and (max-width:1024px) {
+    #big-contianer  {
+        position: static;
+    }
+
+    .navbar {
+        position: static;
+    }
+
+    .navbar-collapse ul li a {
+        font-weight: bold;
+
+    }
+
+    .zeshu {
+        padding: 0;
+        width: 50%;
+    }
+
+    .img1 {
+        position: relative;
+        bottom: 50px;
+    }
+
+    #banner {
+        height: 389px;
+
+    }
+
+    .new88 .new99 {
+        padding: 8%;
+    }
+
+    .container .row {
+        padding: 0 0 10px 0;
+    }
+
+    .forst img {
+        width: 40%;
+    }
+
+    .forst h4 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .new178 {
+        margin-left: 17px;
+        font-size: 13px;
+    }
+
+    .synposis {
+        font-size: 13px;
+    }
+
+    .nms input {
+        padding: 5px 0 5px 13px;
+        width: 88%;
+    }
+    .container-fluid .social-media{
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (max-width:500px) {
+    #big-contianer {
+        position: static;
+    }
+    #banner {
+        height: 509px;
+    }
+
+    .row .dilbar {
+        width: 100%;
+    }
+
+    .row .new78 {
+        width: 100%;
+    }
+
+    .img1,
+    .zeshu {
+        width: 100%;
+
+    }
+
+    .navbar-collapse ul li a {
+        font-weight: bold;
+
+    }
+
+    #new123 {
+        margin-left: 22%;
+        width: 54%;
+    }
+
+    #addme {
+        width: 94%;
+    }
+
+    .thirdy .platform {
+        font-size: 13px;
+    }
+
+    .new178 .synposis {
+        font-size: 11px;
+    }
+
+    .ds {
+        font-size: 15px;
+    }
+
+    .conno .new9326 {
+        height: 800px;
+    }
+    .container-fluid .social-media{
+        width: 53%;
+        margin-left: 30%;
+    }
+    .nms input{
+        width: 70%;
+    }
+
+}
+
+@media (max-width:799px) and (min-width:501px) {
+
+    #big-contianer {
+        position: static;
+    }
+
+    #banner {
+        height: 434px;
+    }
+
+    .zeshu {
+        width: 70%;
+    }
+
+    .row .new78 {
+        width: 100%;
+    }
+
+    .row .dilbar {
+        width: 100%;
+    }
+
+    #new123 {
+        margin-left: 37%;
+        width: 32%;
+    }
+
+    .nms input {
+        padding: 5px 0px 5px 13px;
+    }
+
+    .conno .new9326 {
+        height: 800px;
+    }
+
+    .nms .balon {
+        display: inline-block;
+    }
+
+    .nms .btn {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .container-fluid .social-media{
+        margin: 0;  
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nms .ajma{
+        margin-top: 18px;
+    }
+   @media(max-width:767px){
+    .nms .ajma{
+        margin-top: 0;
+    }
+   }
+   
+
+}
+
+/* @media (max-width:799px) and (min-width:679px){
+    #banner{
+        height: 331px;
+    }
+    .zeshu{
+        width: 100%;
+    }
+} */
+
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 64px;
+}
+
+.title::before {
+    content: '';
+    background-color: #343a40;
+    height: 1px;
+    width: 213px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+
+.title::after {
+    content: '';
+    background-color: #343a40;
+    height: 5px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+    transform: translateY(4px);
+}
+
+.btn button {
+    margin-top: 25px;
+    background: #343a40;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 25px;
+}
+
+.dilba:hover {
+    background: #7c0982;
+}
+
+#kausar {
+    background: #f8f9fa;
+}
+
+.about-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.row ul {
+    width: 51%;
+    line-height: 32px;
+    margin-left: 17px;
+}
+
+.dilbar {
+    width: 40%;
+}
+
+.bablu {
+    margin-top: 21px;
+}
+
+.containr {
+    display: flex;
+    align-items: center;
+}
+
+.containr img {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.containr .para {
+    line-height: 4px;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 11px;
+}
+
+.container .angi {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.new124 {
+    border-left: 2px solid #343a40;
+    margin-bottom: 24px;
+}
+
+.new148 {
+    background: #f8f9fa;
+    height: 300px;
+}
+
+.social-media {
+    margin-left: 35%;
+}
+
+.social-media img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.hoow:hover img {
+    transform: translateY(-10px)
+}
+
+.new178,
+.new9326 {
+    padding: 0;
+}
+
+
+
+.new9326 {
+    background: #343a40;
+    height: 560px;
+
+}
+
+.new178 {
+    margin-left: 17px;
+}
+
+.new178 img {
+    width: 202px;
+}
+
+.new178 .platform {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.new178 .synposis {
+    color: white;
+
+}
+
+.ds p {
+    color: white;
+
+}
+
+.balon {
+    display: block;
+    padding: 5px 139px 5px 13px;
+}
+
+.balon {
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.ds i {
+    padding: 15px;
+}
+
+.ajma {
+    padding: 8px 31px;
+    margin-top: 16px;
+}
+
+
+.row{
+    margin-right: 0;
+}
